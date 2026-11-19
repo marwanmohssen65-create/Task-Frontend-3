@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    padding: 12px;
+    border: 1px;
+    width: 300px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #32323232;
+    width: fit-content;
+    font-family: "Glory";
+}
+img{
+    margin-bottom: 12px;
+    width: 100%;
+}
+h3{
+    font: 700 bold 22px ;
+    color: #323232;
+    margin-bottom: 12px;
+      font-family: "Glory";
+}
+.topic{
+    font: 700 bold 20px ;
+    color: #32323296;
+    line-height: 100%;
+    margin-bottom: 12px;
+      font-family: "Glory";
+      font-size: 20px;
+      width: 276px;
+      height: 40px;
+}
+.price{
+    font: 700 bold  ;
+    width: 69px;
+    color: #28A745;
+    margin-top: 12px;
+    display: inline;
+    font-size: 22px;
+      font-family: "Glory";
+       width: 69px;
+      height: 22px;
+}
+.cards{
+    display: flex;
+    padding: 30px 102px ;
+    gap: 10px;
+    
+}
+span{
+    font: 700 bold ;
+    font-size: 18px;
+    width: 38px;
+    color: #DC3545;
+    text-decoration : line-through solid red;
+      font-family: "Glory";
+       width: 38px;
+      height: 18px;
+}
+.addcard{
+    background-color: #007BFF;
+    font: 700 bold ;
+    color: #FFFFFF;
+    width: 220px;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+      font-family: "Glory";
+      border-bottom-left-radius: 6px;
+      margin-right: 6px;
+   
+    
+}
+.buttons{
+    margin-top: 22px;
+    display: flex;
+    
+}
+.heart{
+border: 2px solid #007BFF;
+border-bottom-right-radius:6px ;
+width: 50px;
+height: 50px;
+color: #007BFF;
+background-color: #FFFFFF;
+}
