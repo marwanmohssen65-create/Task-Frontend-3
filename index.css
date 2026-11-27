@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .card{
+    position: relative;
     padding: 12px;
     border: 1px;
     width: 300px;
@@ -12,7 +13,20 @@
     border-color: #32323232;
     width: fit-content;
     font-family: "Glory";
+
 }
+.sales{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: red;
+}
+
 img{
     margin-bottom: 12px;
     width: 100%;
@@ -50,7 +64,28 @@ h3{
     gap: 10px;
     
 }
-span{
+.heart:hover{
+    color: #323232;
+    background-color: #FFFFFF;
+    border-color: #323232;
+
+}
+.heart:focus{
+    background-color: #fcfafb;
+color: red;
+    border-color: #DC3545;
+
+}
+.addcard:hover{
+    color: #323232;
+    background-color: #FFFFFF;
+}
+.addcard:focus{
+     background-color: #fcfafb;
+color: red;
+    border-color: #DC3545;
+}
+.dol{
     font: 700 bold ;
     font-size: 18px;
     width: 38px;
@@ -87,3 +122,5 @@ height: 50px;
 color: #007BFF;
 background-color: #FFFFFF;
 }
+
+
